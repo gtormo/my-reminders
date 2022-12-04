@@ -1,4 +1,4 @@
-name: daily-reminders
+name: daily-schedule
 
 on:
   schedule:
