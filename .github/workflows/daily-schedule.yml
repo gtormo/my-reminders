@@ -33,5 +33,7 @@ jobs:
             ${{ runner.os }}-
       - name: Install NPM packages
         run: npm ci
+      - name: Build
+        run: npm run build
       - name: Run scripts
         run: npm start
